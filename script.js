@@ -75,3 +75,6 @@ function getDayOfWeek() {
 
 // Fetch weather data on page load
 fetchWeather();
+
+// Fetch weather data every 30 minutes (1800000 milliseconds = 30 minutes)
+setInterval(fetchWeather, 1800000);
