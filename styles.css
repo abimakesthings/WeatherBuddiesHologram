@@ -18,7 +18,7 @@
     height: 100vh;
     box-sizing: border-box;
     margin: 0;
-    transform: rotate(90deg);
+    padding-top: 15vh;
   }
 
   div {
@@ -96,8 +96,26 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -35%);
-    width: 80%;
-    max-height: 100vh;
+    height: 100vh;
     object-fit: cover;
     z-index: -1;
+  }
+
+  /* Optimizing for LCD screen */
+  @media (max-width: 600px) {
+    body {
+        padding-top: 0;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .weather-section {
+        transform: rotate(90deg);
+    }
+    .background-video {
+        width: 160%;
+        max-height: 100vh;
+        transform: rotate(90deg) translate(0px, -25%);
+        top: auto;
+        left: auto;
+    }
   }
