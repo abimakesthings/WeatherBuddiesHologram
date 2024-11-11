@@ -108,7 +108,7 @@
     }
 
     body {
-      padding: 0;
+      padding: 0 10px 0 0;
       flex-direction: row;
       justify-content: flex-end;
     }
@@ -126,13 +126,21 @@
     .background-video {
       width: 180%;
       height: auto;
-      transform: rotate(90deg) translate(0px, -25%);
+      transform: rotate(90deg) translate(0px, -26%);
       top: auto;
       left: auto;
     }
 
+    .cloudy {
+      padding: 0;
+    }
+
     .cloudy .background-video {
       width: 160%;
+    }
+
+    .rainy {
+      padding: 0;
     }
 
     .rainy .background-video {
@@ -150,4 +158,5 @@
       width: 110px;
       height: 110px;
     }
+
   }
