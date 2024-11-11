@@ -104,7 +104,7 @@
   /* Optimizing for LCD screen */
   @media (max-width: 800px) {
     html {
-        font-size: 24px;
+        font-size: 26px;
     }
     body {
         padding: 0 10px 0 0;
@@ -116,8 +116,8 @@
     }
 
     #weather-icon {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
       }
     .background-video {
         width: 180%;
