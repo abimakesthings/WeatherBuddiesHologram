@@ -66,8 +66,8 @@ function setWeatherIcon(forecast) {
     } else if (forecast.toLowerCase().includes("clear")) {
         iconElement.src = "icons/clear_night.png";
         videoElement.src = "videos/sunny.mp4";
-        document.body.classList.add('sunny');
-        document.body.classList.remove('cloudy', 'rainy', 'clear');
+        document.body.classList.add('clear');
+        document.body.classList.remove('cloudy', 'rainy', 'sunny');
     } else {
         iconElement.src = "icons/sunny.png";
         videoElement.src = "videos/sunny.mp4";

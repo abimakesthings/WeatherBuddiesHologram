@@ -145,4 +145,9 @@
       height: 90px;
       padding-right: 8px;
     }
+
+    .clear #weather-icon {
+      width: 110px;
+      height: 110px;
+    }
   }
