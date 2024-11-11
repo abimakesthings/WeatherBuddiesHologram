@@ -136,8 +136,8 @@
     }
 
     .rainy .background-video {
-      width: 200%;
-      transform: rotate(90deg) translate(0px, -32%);
+      width: 220%;
+      transform: rotate(90deg) translate(0px, -38%);
     }
 
     .rainy #weather-icon {
