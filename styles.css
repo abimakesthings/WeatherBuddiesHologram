@@ -133,7 +133,10 @@
 
     .cloudy .background-video {
       width: 160%;
-      
+    }
 
+    .rainy .background-video {
+      width: 190%;
+      transform: rotate(90deg) translate(0px, -28%);
     }
   }
