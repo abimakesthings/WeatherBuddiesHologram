@@ -103,6 +103,9 @@
 
   /* Optimizing for LCD screen */
   @media (max-width: 800px) {
+    html {
+        font-size: 18px;
+    }
     body {
         padding: 0 10px 0 0;
         flex-direction: row;
