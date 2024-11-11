@@ -139,4 +139,9 @@
       width: 190%;
       transform: rotate(90deg) translate(0px, -28%);
     }
+
+    .rainy #weather-icon {
+      width: 90px;
+      height: 90px;
+    }
   }
