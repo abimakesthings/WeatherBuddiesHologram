@@ -104,7 +104,7 @@
   /* Optimizing for LCD screen */
   @media (max-width: 800px) {
     html {
-        font-size: 22px;
+        font-size: 24px;
     }
     body {
         padding: 0 10px 0 0;
@@ -114,6 +114,11 @@
     .weather-section {
         transform: rotate(90deg);
     }
+
+    #weather-icon {
+        width: 100px;
+        height: 100px;
+      }
     .background-video {
         width: 180%;
         height: auto;
