@@ -126,7 +126,7 @@
     .background-video {
       width: 180%;
       height: auto;
-      transform: rotate(90deg) translate(0px, -22%);
+      transform: rotate(90deg) translate(0px, -25%);
       top: auto;
       left: auto;
     }
