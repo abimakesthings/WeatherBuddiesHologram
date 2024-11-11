@@ -104,7 +104,7 @@
   /* Optimizing for LCD screen */
   @media (max-width: 800px) {
     body {
-        padding-top: 0;
+        padding: 0 10px 0 0;
         flex-direction: row;
         justify-content: flex-end;
     }
@@ -112,9 +112,9 @@
         transform: rotate(90deg);
     }
     .background-video {
-        width: 160%;
-        max-height: 100vh;
-        transform: rotate(90deg) translate(0px, -25%);
+        width: 180%;
+        height: auto;
+        transform: rotate(90deg) translate(0px, -32%);
         top: auto;
         left: auto;
     }
