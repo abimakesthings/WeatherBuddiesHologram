@@ -104,27 +104,30 @@
   /* Optimizing for LCD screen */
   @media (max-width: 800px) {
     html {
-        font-size: 24px;
-    }
-    body {
-        padding: 0;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .weather-section {
-        transform: rotate(90deg);
-        max-width: auto;
+      font-size: 24px;
     }
 
+    body {
+      padding: 0;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    .weather-section {
+      transform: rotate(90deg);
+      max-width: auto;
+    }
+    
     #weather-icon {
-        width: 120px;
-        height: 120px;
-      }
+      width: 100px;
+      height: 100px;
+    }
+
     .background-video {
-        width: 180%;
-        height: auto;
-        transform: rotate(90deg) translate(0px, -22%);
-        top: auto;
-        left: auto;
+      width: 180%;
+      height: auto;
+      transform: rotate(90deg) translate(0px, -22%);
+      top: auto;
+      left: auto;
     }
   }
