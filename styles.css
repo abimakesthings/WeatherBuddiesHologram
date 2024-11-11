@@ -130,4 +130,10 @@
       top: auto;
       left: auto;
     }
+
+    .cloudy .background-video {
+      width: 160%;
+      
+
+    }
   }

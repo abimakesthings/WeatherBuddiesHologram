@@ -47,22 +47,32 @@ function setWeatherIcon(forecast) {
     if (forecast.toLowerCase().includes("sunny")) {
         iconElement.src = "icons/sunny.png";
         videoElement.src = "videos/sunny.mp4";
+        document.body.classList.add('sunny');
+        document.body.classList.remove('cloudy', 'rainy', 'clear');
     } else if (forecast.toLowerCase().includes("cloudy") || 
                forecast.toLowerCase().includes("fog")) {
         iconElement.src = "icons/cloudy.png";
         videoElement.src = "videos/cloudy.mp4";
+        document.body.classList.add('cloudy');
+        document.body.classList.remove('sunny', 'rainy', 'clear');
     } else if (forecast.toLowerCase().includes("rain") || 
                forecast.toLowerCase().includes("storm") || 
                forecast.toLowerCase().includes("thunderstorm") || 
                forecast.toLowerCase().includes("showers")) {
         iconElement.src = "icons/rainy.png";
         videoElement.src = "videos/rainy.mp4";
+        document.body.classList.add('rainy');
+        document.bodyremove('sunny', 'cloudy', 'clear');
     } else if (forecast.toLowerCase().includes("clear")) {
         iconElement.src = "icons/clear_night.png";
         videoElement.src = "videos/sunny.mp4";
+        document.body.classList.add('sunny');
+        document.body.classList.remove('cloudy', 'rainy', 'clear');
     } else {
         iconElement.src = "icons/sunny.png";
         videoElement.src = "videos/sunny.mp4";
+        document.body.classList.add('sunny');
+        document.body.classList.remove('cloudy', 'rainy', 'clear');
     }
 }
 
