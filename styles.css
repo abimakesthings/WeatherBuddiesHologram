@@ -143,5 +143,6 @@
     .rainy #weather-icon {
       width: 90px;
       height: 90px;
+      padding-right: 8px;
     }
   }
