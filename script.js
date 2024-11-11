@@ -1,4 +1,4 @@
-const weatherApiUrl = 'https://api.weather.gov/gridpoints/MTR/85,105/forecast';
+const weatherApiUrl = 'https://api.weather.gov/gridpoints/BOU/71,60/forecast';
 
 // Fetch weather data
 async function fetchWeather() {
