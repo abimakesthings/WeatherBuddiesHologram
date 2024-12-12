@@ -1,4 +1,14 @@
 const weatherApiUrl = 'https://api.weather.gov/gridpoints/MTR/85,105/forecast';
+/* 
+Florida: https://api.weather.gov/gridpoints/SJU/270,64/forecast
+Fairfax: https://api.weather.gov/gridpoints/LWX/82,71/forecast
+Portland: https://api.weather.gov/gridpoints/PQR/113,104/forecast
+Seattle: https://api.weather.gov/gridpoints/SEW/125,68/forecast
+Boise: https://api.weather.gov/gridpoints/BOI/133,86/forecast
+Denver: https://api.weather.gov/gridpoints/BOU/71,60/forecast
+Lincoln: https://api.weather.gov/gridpoints/OAX/56,40/forecast
+
+*/
 
 // Fetch weather data
 async function fetchWeather() {
@@ -88,3 +98,15 @@ fetchWeather();
 
 // Fetch weather data every 30 minutes (1800000 milliseconds = 30 minutes)
 setInterval(fetchWeather, 1800000);
+
+// Hide cursor so it doesn't show up in the hologram
+let isCursorVisible = true;
+
+document.addEventListener('click', () => {
+  if (isCursorVisible) {
+    document.body.style.cursor = 'none';
+  } else {
+    document.body.style.cursor = 'default';
+  }
+  isCursorVisible = !isCursorVisible;
+});
