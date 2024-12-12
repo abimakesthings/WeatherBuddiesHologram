@@ -117,7 +117,7 @@
 
     .weather-section {
       transform: rotate(90deg) scaleX(-1); /* flipped because the hologram is a reflection */
-      max-width: auto;
+      max-width: 500px;
     }
     
     #weather-icon {
