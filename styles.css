@@ -54,17 +54,18 @@
   }
   
   #day-of-week {
-    font-size: 1rem;
-    font-weight: 800;
+    font-size: 1.4rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: .25rem;
     margin: 0;
   }
   
   #short-forecast {
-    font-size: 0.6rem;
+    font-size: 0.875rem;
     letter-spacing: .05em;
-    font-weight: 600;
+    font-weight: 500;
+    margin-top: 2px;
   }
 
   .temp-container {
@@ -85,9 +86,9 @@
   }
   
   .label {
-    font-size: 0.6rem;
+    font-size: 0.875rem;
     color: var(--white);
-    font-weight: 600;
+    font-weight: 500;
     margin: 0;
   }
   
@@ -115,7 +116,7 @@
     }
 
     .weather-section {
-      transform: rotate(90deg) scaleX(-1); /* flipped because the hologra is a reflection */
+      transform: rotate(90deg) scaleX(-1); /* flipped because the hologram is a reflection */
       max-width: auto;
     }
     
