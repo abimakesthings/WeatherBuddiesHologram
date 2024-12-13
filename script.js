@@ -1,13 +1,14 @@
-const weatherApiUrl = 'https://api.weather.gov/gridpoints/MTR/85,105/forecast';
+const weatherApiUrl = 'https://api.weather.gov/gridpoints/VEF/120,93/forecast';
 /* 
 Florida: https://api.weather.gov/gridpoints/SJU/270,64/forecast
 Fairfax: https://api.weather.gov/gridpoints/LWX/82,71/forecast
 Portland: https://api.weather.gov/gridpoints/PQR/113,104/forecast
-Seattle: https://api.weather.gov/gridpoints/SEW/125,68/forecast
+Seattle: https://api.weather.gov/gridpoints/SEW/125,68/forecast Showera
 Boise: https://api.weather.gov/gridpoints/BOI/133,86/forecast
-Denver: https://api.weather.gov/gridpoints/BOU/71,60/forecast
+Denver: https://api.weather.gov/gridpoints/BOU/71,60/forecast Cloudy
 Lincoln: https://api.weather.gov/gridpoints/OAX/56,40/forecast
-
+Vegas: https://api.weather.gov/gridpoints/VEF/120,93/forecast
+SF: https://api.weather.gov/gridpoints/MTR/85,105/forecast
 */
 
 // Fetch weather data
