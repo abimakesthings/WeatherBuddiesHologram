@@ -25,7 +25,7 @@ async function fetchWeather() {
     let tempNight;
 
     // At night, period 0 switches from day to night. 
-    if(isDaytime == true) {
+    if(isDaytime === true) {
         tempAfternoon = nowForecast.temperature;
         tempNight = data.properties.periods[1].temperature;
     } else {
@@ -73,7 +73,7 @@ function setWeatherIcon(forecast) {
         iconElement.src = "icons/rainy.png";
         videoElement.src = "videos/rainy.mp4";
         document.body.classList.add('rainy');
-        document.bodyremove('sunny', 'cloudy', 'clear');
+        document.body.classList.remove('sunny', 'cloudy', 'clear');
     } else if (forecast.toLowerCase().includes("clear")) {
         iconElement.src = "icons/clear_night.png";
         videoElement.src = "videos/sunny.mp4";
