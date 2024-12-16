@@ -1,4 +1,4 @@
-const weatherApiUrl = 'https://api.weather.gov/gridpoints/MTR/85,105/forecast';
+const weatherApiUrl = 'https://api.weather.gov/gridpoints/SEW/125,68/forecast';
 /* 
 Florida: https://api.weather.gov/gridpoints/SJU/270,64/forecast
 Fairfax: https://api.weather.gov/gridpoints/LWX/82,71/forecast
