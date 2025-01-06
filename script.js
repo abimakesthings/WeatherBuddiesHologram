@@ -1,16 +1,17 @@
-const weatherApiUrl = 'https://api.weather.gov/gridpoints/SEW/125,68/forecast';
+const weatherApiUrl = 'https://api.weather.gov/gridpoints/OTX/144,91/forecast';
 /* 
 Florida: https://api.weather.gov/gridpoints/SJU/270,64/forecast
 Fairfax: https://api.weather.gov/gridpoints/LWX/82,71/forecast
 Portland: https://api.weather.gov/gridpoints/PQR/113,104/forecast
-Seattle: https://api.weather.gov/gridpoints/SEW/125,68/forecast Showers
+Seattle: https://api.weather.gov/gridpoints/SEW/125,68/forecast s
 Boise: https://api.weather.gov/gridpoints/BOI/133,86/forecast
-Denver: https://api.weather.gov/gridpoints/BOU/71,60/forecast Cloudy
+Denver: https://api.weather.gov/gridpoints/BOU/71,60/forecast 
 Lincoln: https://api.weather.gov/gridpoints/OAX/56,40/forecast
 Vegas: https://api.weather.gov/gridpoints/VEF/120,93/forecast
 SF: https://api.weather.gov/gridpoints/MTR/85,105/forecast
 Portland: https://api.weather.gov/gridpoints/PQR/116,107/forecast
 LA: https://api.weather.gov/gridpoints/LOX/155,45/forecast
+Spokane: https://api.weather.gov/gridpoints/OTX/144,91/forecast 
 */
 
 // Fetch weather data
